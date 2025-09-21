@@ -19,7 +19,7 @@ const tag = articleData.tag;
 const comment = articleData.comment + timestamp;
 
 //====================Tests======================
-test('Register with valid data TC', { tag: '@e2e' }, async ({ homePage, loginPage, registerPage, manageArticlePage, articlePage, profilePage, settingsPage }) => {
+test('End-to-End TC', { tag: '@e2e' }, async ({ homePage, loginPage, registerPage, manageArticlePage, articlePage, profilePage, settingsPage }) => {
     //Register
     await homePage.open('/');
     await homePage.navigateToRegister();
