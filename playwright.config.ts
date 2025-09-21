@@ -20,7 +20,7 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 1,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? undefined : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [["html", { open: 'on-failure' }], ["allure-playwright"]], // Use both HTML and Allure reporters
   /* Global setup to perform actions before all tests */
@@ -43,7 +43,7 @@ export default defineConfig({
     /* record vodeo only when test fails */
     video: 'retain-on-failure',
     /* run tests in headed mode */
-    headless: false,
+    headless: true,
     /* set test ID attribute*/
     testIdAttribute: 'id',
     /* storage state path to use for saving all cookies, local storage, session storage */
