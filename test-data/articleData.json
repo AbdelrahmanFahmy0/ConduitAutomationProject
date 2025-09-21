@@ -1,0 +1,14 @@
+{
+    "title": "Article NO",
+    "description": "This is a sample article for testing purposes.",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.",
+    "tag": "test",
+    "tag1": "playwright",
+    "comment": "This is a test comment.",
+    "messages": {
+        "emptyTitle": "title can't be blank",
+        "emptyDescription": "description can't be blank",
+        "emptyBody": "body can't be blank",
+        "emptyComment": "body can't be blank"
+    }
+}

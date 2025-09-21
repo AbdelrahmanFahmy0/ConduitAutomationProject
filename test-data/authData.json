@@ -1,0 +1,16 @@
+{
+  "username": "usario",
+  "email": "@test.com",
+  "password": "securepassword123",
+  "existingUsername": "existingUser1234",
+  "existingEmail": "testUser1560@gmail.com",
+  "messages": {
+    "longUsername": "username is too long (maximum is 20 characters)",
+    "shortUsername": "username is too short (minimum is 3 characters)",
+    "invalidEmail": "email is invalid",
+    "shortPassword": "password is too short (minimum is 8 characters)",
+    "existingUsername": "username has already been taken",
+    "existingEmail": "email has already been taken",
+    "invalidLoginCredentials": "email or password is invalid"
+  }
+}
