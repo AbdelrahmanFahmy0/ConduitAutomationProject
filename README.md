@@ -116,7 +116,7 @@ This project automates testing for the **Conduit** application. It covers critic
 
 ## 📊 Reports
 
-1. **View report in browser**
+1. **View playwright report in browser**
 
    ```bash
    npx playwright show-report
