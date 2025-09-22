@@ -1,7 +1,7 @@
 ## 🚀 Conduit Automation Project
 
-Automated end-to-end testing for the **Conduit** web application 📰 (a real-world example app for articles, authentication, etc.).  
-This project automates UI & API flows to ensure features work as expected across typical user journeys: signup, login, creating/editing/deleting articles, etc. ✅
+Automated end-to-end testing for the **Conduit** web application 📰 — a real-world example app for user authentication, publishing articles and social interactions.  
+This project validates both **UI** and **API** flows, covering core user journeys such as **sign up, login, article creation, editing, deletion, and commenting** to ensure features work as expected. ✅
 
 ---
 
