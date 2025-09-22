@@ -72,39 +72,64 @@ This project automates testing for the **Conduit** application. It covers critic
 
 ## ⚙️ Setup
 
-1. Clone the repository:
+1. **Clone the repository**
    ```bash
    git clone https://github.com/AbdelrahmanFahmy0/ConduitAutomationProject.git
    cd ConduitAutomationProject
+   ```
 
-2. Update playwright:
+2. **Update playwright**
     ```bash
     npm install -D @playwright/test@latest
+    ```
 
-3. Install Playwright browsers:
+3. **Install Playwright browsers**
     ```bash
     npx playwright install
-
+    ```
+    
 ---
 
 ## ▶️ How to Run
 
-1. Run all tests:  
+1. **Run all tests**  
    ```bash
    npx playwright test
-
-2. Run smoke tests:  
+   ```
+   
+2. **Run smoke tests**  
    ```bash
    npm run smoke
-
-3. Run regression tests:  
+   ```
+   
+3. **Run regression tests**  
    ```bash
    npm run regression
-
-4. Run E2E test:  
+   ```
+   
+4. **Run E2E test**  
    ```bash
    npm run e2e
-
+   ```
+   
 --- 
 
 ## 📊 Reports
+
+1. **View report in browser**
+
+   ```bash
+   npx playwright show-report
+   ```
+         
+2. **Generate Allure Report**
+   
+   ```bash
+   allure serve ./allure-results
+   ```
+   
+---
+
+## 🤝 Contributions
+
+   Contributions are welcome! Please fork the repository and create a pull request.
