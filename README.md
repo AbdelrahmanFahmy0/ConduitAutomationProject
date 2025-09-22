@@ -1,4 +1,4 @@
-# 🚀 Conduit Automation Project
+## 🚀 Conduit Automation Project
 
 Automated end-to-end testing for the **Conduit** web application 📰 (a real-world example app for articles, authentication, etc.).  
 This project automates UI & API flows to ensure features work as expected across typical user journeys: signup, login, creating/editing/deleting articles, etc. ✅
@@ -19,7 +19,7 @@ This project automates testing for the **Conduit** application. It covers critic
 
 ---
 
-### 🧪 Built With
+## 🧪 Built With
 
 * [![Playwright][Playwright-logo]][Playwright-url]
 * [![TypeScript][TypeScript-logo]][TypeScript-url]
@@ -56,3 +56,55 @@ This project automates testing for the **Conduit** application. It covers critic
 * 🚀 **GitHub Actions:** Continuous integration setup to run tests automatically on push/pull request.  
 
 ---
+
+## 📦 Prerequisites
+
+* [![Node.js][Node-logo]][Node-url]
+* [![VSCode][VSCode-logo]][VSCode-url]
+
+[Node-logo]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/
+
+[VSCode-logo]: https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visualstudiocode&logoColor=white
+[VSCode-url]: https://code.visualstudio.com/
+
+---
+
+## ⚙️ Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AbdelrahmanFahmy0/ConduitAutomationProject.git
+   cd ConduitAutomationProject
+
+2. Update playwright:
+    ```bash
+    npm install -D @playwright/test@latest
+
+3. Install Playwright browsers:
+    ```bash
+    npx playwright install
+
+---
+
+## ▶️ How to Run
+
+1. Run all tests:  
+   ```bash
+   npx playwright test
+
+2. Run smoke tests:  
+   ```bash
+   npm run smoke
+
+3. Run regression tests:  
+   ```bash
+   npm run regression
+
+4. Run E2E test:  
+   ```bash
+   npm run e2e
+
+--- 
+
+## 📊 Reports
